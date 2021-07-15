@@ -1,0 +1,76 @@
+-----------------------------------------------------------
+Family information: /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/filtered_cafe_input.txt
+Log: /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_final_log.txt
+Tree: ((((cat:68.7105,horse:68.7105):4.56678,cow:73.2773):20.7227,(((((chimp:4.44417,human:4.44417):6.68268,orang:11.1268):2.28586,gibbon:13.4127):7.21153,(macaque:4.56724,baboon:4.56724):16.057):16.0607,marmoset:36.6849):57.3151):38.738,(rat:36.3024,mouse:36.3024):96.4356)
+The number of families is 12653
+Root Family size : 1 ~ 112
+Family size : 0 ~ 140
+P-value: 0.010000
+Num of Threads: 10
+Num of Random: 1000
+Lambda Tree: ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1)
+Empirical Prior Estimation Result: 31
+Poisson lambda: 0.761427 & Score: 237754.098758
+Lambda : 0.00493376452777 & Score: -160792.116431
+.Lambda : 0.00518045275416 & Score: -162185.356617
+.Lambda : 0.00468707630138 & Score: -159400.835458
+.Lambda : 0.00444038807499 & Score: -158017.946779
+.Lambda : 0.00394701162222 & Score: -155298.746131
+.Lambda : 0.00345363516944 & Score: -152684.994328
+.Lambda : 0.00246688226389 & Score: -148116.366727
+.Lambda : 0.00148012935833 & Score: -145741.482934
+.Lambda : -0.00049337645278 & Score: -inf
+.Lambda : 0.00049337645278 & Score: -152243.611725
+.Lambda : 0.00246688226389 & Score: -148116.366727
+.Lambda : 0.00049337645278 & Score: -152243.611725
+.Lambda : 0.00098675290555 & Score: -146766.751751
+.Lambda : 0.00197350581111 & Score: -146481.190835
+.Lambda : 0.00098675290555 & Score: -146766.751751
+.Lambda : 0.00123344113194 & Score: -145941.490700
+.Lambda : 0.00172681758472 & Score: -145963.171839
+.Lambda : 0.00160347347153 & Score: -145808.775082
+.Lambda : 0.00135678524514 & Score: -145778.785597
+.Lambda : 0.00160347347153 & Score: -145808.775082
+.Lambda : 0.00154180141493 & Score: -145763.291030
+.Lambda : 0.00141845730173 & Score: -145745.728043
+.Lambda : 0.00154180141493 & Score: -145763.291030
+.Lambda : 0.00151096538663 & Score: -145749.314576
+.Lambda : 0.00144929333003 & Score: -145740.198048
+.Lambda : 0.00141845730173 & Score: -145745.728043
+.Lambda : 0.00143387531588 & Score: -145742.056127
+.Lambda : 0.00146471134418 & Score: -145739.997380
+.Lambda : 0.00148012935833 & Score: -145741.482934
+.Lambda : 0.00147242035126 & Score: -145740.524914
+.Lambda : 0.00145700233711 & Score: -145739.900523
+.Lambda : 0.00144929333003 & Score: -145740.198048
+.Lambda : 0.00145314783357 & Score: -145740.006102
+.Lambda : 0.00146085684064 & Score: -145739.897018
+.Lambda : 0.00146471134418 & Score: -145739.997380
+.Lambda : 0.00146278409241 & Score: -145739.934359
+.Lambda : 0.00145892958888 & Score: -145739.885162
+.Lambda : 0.00145700233711 & Score: -145739.900523
+.Lambda : 0.00145796596299 & Score: -145739.889923
+.Lambda : 0.00145989321476 & Score: -145739.887496
+.Lambda : 0.00145796596299 & Score: -145739.889923
+.Lambda : 0.00145844777593 & Score: -145739.886694
+.Lambda : 0.00145941140182 & Score: -145739.885429
+.Lambda : 0.00145844777593 & Score: -145739.886694
+.Lambda : 0.00145868868240 & Score: -145739.885703
+.Lambda : 0.00145917049535 & Score: -145739.885071
+.Lambda : 0.00145941140182 & Score: -145739.885429
+.Lambda : 0.00145929094858 & Score: -145739.885194
+.Lambda : 0.00145905004211 & Score: -145739.885060
+.Lambda : 0.00145892958888 & Score: -145739.885162
+.Lambda : 0.00145898981549 & Score: -145739.885097
+.Lambda : 0.00145911026873 & Score: -145739.885051
+.Lambda : 0.00145917049535 & Score: -145739.885071
+.Lambda : 0.00145914038204 & Score: -145739.885057
+.Lambda : 0.00145908015542 & Score: -145739.885052
+.
+Lambda Search Result: 26
+Lambda : 0.00145911026873 & Score: 145739.885051
+DONE: Lambda Search or setting, for command:
+lambda -s -t ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1) 
+Running Viterbi algorithm....
+Building HTML report: /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_final_report.html
+Report Done

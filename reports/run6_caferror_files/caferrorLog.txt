@@ -1,0 +1,552 @@
+# =========================================================================
+#		Assembly/annotation error estimation
+#			01.25.2017 | 03:12:14
+# Using CAFE shell file:           cafetutorial_run6.sh
+# --------------------------
+#			INPUT INFO
+# CAFE path set as:                #!/Users/binho/Documents/IU/hahn_lab_stuff/CAFE/release/cafe
+# Using gene family file:          /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/filtered_cafe_input.txt
+# Using tree command:              tree ((((cat:68.710507,horse:68.710507):4.566782,cow:73.277289):20.722711,(((((chimp:4.444172,human:4.444172):6.682678,orang:11.126850):2.285855,gibbon:13.412706):7.211527,(macaque:4.567240,baboon:4.567240):16.056992):16.060702,marmoset:36.684935):57.315065):38.738021,(rat:36.302445,mouse:36.302445):96.435575)
+# Using lambda command             lambda -s -t ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1)
+# --------------------------
+#			OPTIONS INFO
+# -c 0                             Global grid search option.
+# -e 0.4                           Starting error estimate of 0.4.
+# -f 1                             Initial CAFE run option.
+# -v 0                             CAFE verbosity option.
+# -s 0                             Individual species minimization option.
+# --------------------------
+#			OUTPUT INFO
+# Putting all files in:            /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/
+# Log file for all runs:           /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/caferrorLog.txt
+# Output file:                     /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/caferror_default_output.txt
+# =========================================================================
+# Beginning Global Error Prediction...
+--------------------------
+CAFE run number 1
+Pre run (no error models)
+-----
+## No error models generated
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     162576.628503
+Lambda with above error models:    0.00265953459394
+--------------------------
+CAFE run number 2
+0.4 Error Model Run for all
+-----
+## Generating 0.4 Error File for horse
+## 0.4 Error File Already Created for gibbon
+## 0.4 Error File Already Created for cow
+## 0.4 Error File Already Created for chimp
+## 0.4 Error File Already Created for orang
+## 0.4 Error File Already Created for macaque
+## 0.4 Error File Already Created for cat
+## 0.4 Error File Already Created for marmoset
+## 0.4 Error File Already Created for rat
+## 0.4 Error File Already Created for human
+## 0.4 Error File Already Created for baboon
+## 0.4 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     166462.116642
+Lambda with above error models:    0.00124796006811
+--------------------------
+CAFE run number 3
+0.2 Error Model Run for all
+-----
+## Generating 0.2 Error File for horse
+## 0.2 Error File Already Created for gibbon
+## 0.2 Error File Already Created for cow
+## 0.2 Error File Already Created for chimp
+## 0.2 Error File Already Created for orang
+## 0.2 Error File Already Created for macaque
+## 0.2 Error File Already Created for cat
+## 0.2 Error File Already Created for marmoset
+## 0.2 Error File Already Created for rat
+## 0.2 Error File Already Created for human
+## 0.2 Error File Already Created for baboon
+## 0.2 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     148487.316800
+Lambda with above error models:    0.00130147814114
+--------------------------
+CAFE run number 4
+0.1 Error Model Run for all
+-----
+## Generating 0.1 Error File for horse
+## 0.1 Error File Already Created for gibbon
+## 0.1 Error File Already Created for cow
+## 0.1 Error File Already Created for chimp
+## 0.1 Error File Already Created for orang
+## 0.1 Error File Already Created for macaque
+## 0.1 Error File Already Created for cat
+## 0.1 Error File Already Created for marmoset
+## 0.1 Error File Already Created for rat
+## 0.1 Error File Already Created for human
+## 0.1 Error File Already Created for baboon
+## 0.1 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145776.419850
+Lambda with above error models:    0.00148444864895
+--------------------------
+CAFE run number 5
+0.05 Error Model Run for all
+-----
+## Generating 0.05 Error File for horse
+## 0.05 Error File Already Created for gibbon
+## 0.05 Error File Already Created for cow
+## 0.05 Error File Already Created for chimp
+## 0.05 Error File Already Created for orang
+## 0.05 Error File Already Created for macaque
+## 0.05 Error File Already Created for cat
+## 0.05 Error File Already Created for marmoset
+## 0.05 Error File Already Created for rat
+## 0.05 Error File Already Created for human
+## 0.05 Error File Already Created for baboon
+## 0.05 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     147792.113653
+Lambda with above error models:    0.00169747444537
+--------------------------
+CAFE run number 6
+0.125 Error Model Run for all
+-----
+## Generating 0.125 Error File for horse
+## 0.125 Error File Already Created for gibbon
+## 0.125 Error File Already Created for cow
+## 0.125 Error File Already Created for chimp
+## 0.125 Error File Already Created for orang
+## 0.125 Error File Already Created for macaque
+## 0.125 Error File Already Created for cat
+## 0.125 Error File Already Created for marmoset
+## 0.125 Error File Already Created for rat
+## 0.125 Error File Already Created for human
+## 0.125 Error File Already Created for baboon
+## 0.125 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145844.837758
+Lambda with above error models:    0.00142022418114
+--------------------------
+CAFE run number 7
+0.0875 Error Model Run for all
+-----
+## Generating 0.0875 Error File for horse
+## 0.0875 Error File Already Created for gibbon
+## 0.0875 Error File Already Created for cow
+## 0.0875 Error File Already Created for chimp
+## 0.0875 Error File Already Created for orang
+## 0.0875 Error File Already Created for macaque
+## 0.0875 Error File Already Created for cat
+## 0.0875 Error File Already Created for marmoset
+## 0.0875 Error File Already Created for rat
+## 0.0875 Error File Already Created for human
+## 0.0875 Error File Already Created for baboon
+## 0.0875 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145960.422682
+Lambda with above error models:    0.00152422045005
+--------------------------
+CAFE run number 8
+0.10625 Error Model Run for all
+-----
+## Generating 0.10625 Error File for horse
+## 0.10625 Error File Already Created for gibbon
+## 0.10625 Error File Already Created for cow
+## 0.10625 Error File Already Created for chimp
+## 0.10625 Error File Already Created for orang
+## 0.10625 Error File Already Created for macaque
+## 0.10625 Error File Already Created for cat
+## 0.10625 Error File Already Created for marmoset
+## 0.10625 Error File Already Created for rat
+## 0.10625 Error File Already Created for human
+## 0.10625 Error File Already Created for baboon
+## 0.10625 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145743.199198
+Lambda with above error models:    0.00146654877900
+--------------------------
+CAFE run number 9
+0.115625 Error Model Run for all
+-----
+## Generating 0.115625 Error File for horse
+## 0.115625 Error File Already Created for gibbon
+## 0.115625 Error File Already Created for cow
+## 0.115625 Error File Already Created for chimp
+## 0.115625 Error File Already Created for orang
+## 0.115625 Error File Already Created for macaque
+## 0.115625 Error File Already Created for cat
+## 0.115625 Error File Already Created for marmoset
+## 0.115625 Error File Already Created for rat
+## 0.115625 Error File Already Created for human
+## 0.115625 Error File Already Created for baboon
+## 0.115625 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     inf
+Lambda with above error models:    0.00004930328670
+++WARNING: CAFE failed to converge or initialize. This run will be re-done. Check badRuns.txt for more info.
+
+--------------------------
+CAFE run number 10
+0.115625 Error Model Run for all
+-----
+## 0.115625 Error File Already Created for horse
+## 0.115625 Error File Already Created for gibbon
+## 0.115625 Error File Already Created for cow
+## 0.115625 Error File Already Created for chimp
+## 0.115625 Error File Already Created for orang
+## 0.115625 Error File Already Created for macaque
+## 0.115625 Error File Already Created for cat
+## 0.115625 Error File Already Created for marmoset
+## 0.115625 Error File Already Created for rat
+## 0.115625 Error File Already Created for human
+## 0.115625 Error File Already Created for baboon
+## 0.115625 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145758.495205
+Lambda with above error models:    0.00144157668031
+--------------------------
+CAFE run number 11
+0.053125 Error Model Run for all
+-----
+## Generating 0.053125 Error File for horse
+## 0.053125 Error File Already Created for gibbon
+## 0.053125 Error File Already Created for cow
+## 0.053125 Error File Already Created for chimp
+## 0.053125 Error File Already Created for orang
+## 0.053125 Error File Already Created for macaque
+## 0.053125 Error File Already Created for cat
+## 0.053125 Error File Already Created for marmoset
+## 0.053125 Error File Already Created for rat
+## 0.053125 Error File Already Created for human
+## 0.053125 Error File Already Created for baboon
+## 0.053125 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     147541.731451
+Lambda with above error models:    0.00167929472583
+--------------------------
+CAFE run number 12
+0.084375 Error Model Run for all
+-----
+## Generating 0.084375 Error File for horse
+## 0.084375 Error File Already Created for gibbon
+## 0.084375 Error File Already Created for cow
+## 0.084375 Error File Already Created for chimp
+## 0.084375 Error File Already Created for orang
+## 0.084375 Error File Already Created for macaque
+## 0.084375 Error File Already Created for cat
+## 0.084375 Error File Already Created for marmoset
+## 0.084375 Error File Already Created for rat
+## 0.084375 Error File Already Created for human
+## 0.084375 Error File Already Created for baboon
+## 0.084375 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     146033.486212
+Lambda with above error models:    0.00153580830679
+--------------------------
+CAFE run number 13
+0.0921875 Error Model Run for all
+-----
+## Generating 0.0921875 Error File for horse
+## 0.0921875 Error File Already Created for gibbon
+## 0.0921875 Error File Already Created for cow
+## 0.0921875 Error File Already Created for chimp
+## 0.0921875 Error File Already Created for orang
+## 0.0921875 Error File Already Created for macaque
+## 0.0921875 Error File Already Created for cat
+## 0.0921875 Error File Already Created for marmoset
+## 0.0921875 Error File Already Created for rat
+## 0.0921875 Error File Already Created for human
+## 0.0921875 Error File Already Created for baboon
+## 0.0921875 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145871.878264
+Lambda with above error models:    0.00150769991984
+--------------------------
+CAFE run number 14
+0.10390625 Error Model Run for all
+-----
+## Generating 0.10390625 Error File for horse
+## 0.10390625 Error File Already Created for gibbon
+## 0.10390625 Error File Already Created for cow
+## 0.10390625 Error File Already Created for chimp
+## 0.10390625 Error File Already Created for orang
+## 0.10390625 Error File Already Created for macaque
+## 0.10390625 Error File Already Created for cat
+## 0.10390625 Error File Already Created for marmoset
+## 0.10390625 Error File Already Created for rat
+## 0.10390625 Error File Already Created for human
+## 0.10390625 Error File Already Created for baboon
+## 0.10390625 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145751.384434
+Lambda with above error models:    0.00147271389804
+--------------------------
+CAFE run number 15
+0.109765625 Error Model Run for all
+-----
+## Generating 0.109765625 Error File for horse
+## 0.109765625 Error File Already Created for gibbon
+## 0.109765625 Error File Already Created for cow
+## 0.109765625 Error File Already Created for chimp
+## 0.109765625 Error File Already Created for orang
+## 0.109765625 Error File Already Created for macaque
+## 0.109765625 Error File Already Created for cat
+## 0.109765625 Error File Already Created for marmoset
+## 0.109765625 Error File Already Created for rat
+## 0.109765625 Error File Already Created for human
+## 0.109765625 Error File Already Created for baboon
+## 0.109765625 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145740.147917
+Lambda with above error models:    0.00145726489647
+--------------------------
+CAFE run number 16
+0.1126953125 Error Model Run for all
+-----
+## Generating 0.1126953125 Error File for horse
+## 0.1126953125 Error File Already Created for gibbon
+## 0.1126953125 Error File Already Created for cow
+## 0.1126953125 Error File Already Created for chimp
+## 0.1126953125 Error File Already Created for orang
+## 0.1126953125 Error File Already Created for macaque
+## 0.1126953125 Error File Already Created for cat
+## 0.1126953125 Error File Already Created for marmoset
+## 0.1126953125 Error File Already Created for rat
+## 0.1126953125 Error File Already Created for human
+## 0.1126953125 Error File Already Created for baboon
+## 0.1126953125 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145745.745599
+Lambda with above error models:    0.00144863288163
+--------------------------
+CAFE run number 17
+0.0548828125 Error Model Run for all
+-----
+## Generating 0.0548828125 Error File for horse
+## 0.0548828125 Error File Already Created for gibbon
+## 0.0548828125 Error File Already Created for cow
+## 0.0548828125 Error File Already Created for chimp
+## 0.0548828125 Error File Already Created for orang
+## 0.0548828125 Error File Already Created for macaque
+## 0.0548828125 Error File Already Created for cat
+## 0.0548828125 Error File Already Created for marmoset
+## 0.0548828125 Error File Already Created for rat
+## 0.0548828125 Error File Already Created for human
+## 0.0548828125 Error File Already Created for baboon
+## 0.0548828125 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     147410.677977
+Lambda with above error models:    0.00166942550610
+--------------------------
+CAFE run number 18
+0.0837890625 Error Model Run for all
+-----
+## Generating 0.0837890625 Error File for horse
+## 0.0837890625 Error File Already Created for gibbon
+## 0.0837890625 Error File Already Created for cow
+## 0.0837890625 Error File Already Created for chimp
+## 0.0837890625 Error File Already Created for orang
+## 0.0837890625 Error File Already Created for macaque
+## 0.0837890625 Error File Already Created for cat
+## 0.0837890625 Error File Already Created for marmoset
+## 0.0837890625 Error File Already Created for rat
+## 0.0837890625 Error File Already Created for human
+## 0.0837890625 Error File Already Created for baboon
+## 0.0837890625 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     146048.477903
+Lambda with above error models:    0.00153792993108
+--------------------------
+CAFE run number 19
+0.0982421875 Error Model Run for all
+-----
+## Generating 0.0982421875 Error File for horse
+## 0.0982421875 Error File Already Created for gibbon
+## 0.0982421875 Error File Already Created for cow
+## 0.0982421875 Error File Already Created for chimp
+## 0.0982421875 Error File Already Created for orang
+## 0.0982421875 Error File Already Created for macaque
+## 0.0982421875 Error File Already Created for cat
+## 0.0982421875 Error File Already Created for marmoset
+## 0.0982421875 Error File Already Created for rat
+## 0.0982421875 Error File Already Created for human
+## 0.0982421875 Error File Already Created for baboon
+## 0.0982421875 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145792.494210
+Lambda with above error models:    0.00148957038680
+--------------------------
+CAFE run number 20
+0.10546875 Error Model Run for all
+-----
+## Generating 0.10546875 Error File for horse
+## 0.10546875 Error File Already Created for gibbon
+## 0.10546875 Error File Already Created for cow
+## 0.10546875 Error File Already Created for chimp
+## 0.10546875 Error File Already Created for orang
+## 0.10546875 Error File Already Created for macaque
+## 0.10546875 Error File Already Created for cat
+## 0.10546875 Error File Already Created for marmoset
+## 0.10546875 Error File Already Created for rat
+## 0.10546875 Error File Already Created for human
+## 0.10546875 Error File Already Created for baboon
+## 0.10546875 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145745.371527
+Lambda with above error models:    0.00146851973810
+--------------------------
+CAFE run number 21
+0.10908203125 Error Model Run for all
+-----
+## Generating 0.10908203125 Error File for horse
+## 0.10908203125 Error File Already Created for gibbon
+## 0.10908203125 Error File Already Created for cow
+## 0.10908203125 Error File Already Created for chimp
+## 0.10908203125 Error File Already Created for orang
+## 0.10908203125 Error File Already Created for macaque
+## 0.10908203125 Error File Already Created for cat
+## 0.10908203125 Error File Already Created for marmoset
+## 0.10908203125 Error File Already Created for rat
+## 0.10908203125 Error File Already Created for human
+## 0.10908203125 Error File Already Created for baboon
+## 0.10908203125 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145739.899086
+Lambda with above error models:    0.00145909617506
+--------------------------
+CAFE run number 22
+0.110888671875 Error Model Run for all
+-----
+## Generating 0.110888671875 Error File for horse
+## 0.110888671875 Error File Already Created for gibbon
+## 0.110888671875 Error File Already Created for cow
+## 0.110888671875 Error File Already Created for chimp
+## 0.110888671875 Error File Already Created for orang
+## 0.110888671875 Error File Already Created for macaque
+## 0.110888671875 Error File Already Created for cat
+## 0.110888671875 Error File Already Created for marmoset
+## 0.110888671875 Error File Already Created for rat
+## 0.110888671875 Error File Already Created for human
+## 0.110888671875 Error File Already Created for baboon
+## 0.110888671875 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145741.431870
+Lambda with above error models:    0.00145412542891
+--------------------------
+CAFE run number 23
+0.054541015625 Error Model Run for all
+-----
+## Generating 0.054541015625 Error File for horse
+## 0.054541015625 Error File Already Created for gibbon
+## 0.054541015625 Error File Already Created for cow
+## 0.054541015625 Error File Already Created for chimp
+## 0.054541015625 Error File Already Created for orang
+## 0.054541015625 Error File Already Created for macaque
+## 0.054541015625 Error File Already Created for cat
+## 0.054541015625 Error File Already Created for marmoset
+## 0.054541015625 Error File Already Created for rat
+## 0.054541015625 Error File Already Created for human
+## 0.054541015625 Error File Already Created for baboon
+## 0.054541015625 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     147435.615313
+Lambda with above error models:    0.00167145278563
+--------------------------
+CAFE run number 24
+0.08271484375 Error Model Run for all
+-----
+## Generating 0.08271484375 Error File for horse
+## 0.08271484375 Error File Already Created for gibbon
+## 0.08271484375 Error File Already Created for cow
+## 0.08271484375 Error File Already Created for chimp
+## 0.08271484375 Error File Already Created for orang
+## 0.08271484375 Error File Already Created for macaque
+## 0.08271484375 Error File Already Created for cat
+## 0.08271484375 Error File Already Created for marmoset
+## 0.08271484375 Error File Already Created for rat
+## 0.08271484375 Error File Already Created for human
+## 0.08271484375 Error File Already Created for baboon
+## 0.08271484375 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     146077.074291
+Lambda with above error models:    0.00154172043164
+--------------------------
+CAFE run number 25(FINAL RUN)
+With minimized error models
+-----
+## 0.10908203125 Error File Already Created for horse
+## 0.10908203125 Error File Already Created for gibbon
+## 0.10908203125 Error File Already Created for cow
+## 0.10908203125 Error File Already Created for chimp
+## 0.10908203125 Error File Already Created for orang
+## 0.10908203125 Error File Already Created for macaque
+## 0.10908203125 Error File Already Created for cat
+## 0.10908203125 Error File Already Created for marmoset
+## 0.10908203125 Error File Already Created for rat
+## 0.10908203125 Error File Already Created for human
+## 0.10908203125 Error File Already Created for baboon
+## 0.10908203125 Error File Already Created for mouse
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     145739.885051
+Lambda with above error models:    0.00145911026873
+# =======================================================================
+# ************************************
+# Score with no errormodel:        162576.628503
+# Lambda with no errormodel:       0.00265953459394
+# ************************************
+# Global Error Estimation:         0.10908203125
+# Score with global errormodel:    145739.899086
+# Lambda with global errormodel:   0.00145909617506
+# ************************************
+# =======================================================================
+# Caferror finished at:            01.25.2017 | 06:01:30
+# Runtime:                         169.270650001 minutes

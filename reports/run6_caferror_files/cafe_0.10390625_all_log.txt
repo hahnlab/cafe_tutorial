@@ -1,0 +1,58 @@
+-----------------------------------------------------------
+Family information: /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/filtered_cafe_input.txt
+Log: /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.10390625_all_log.txt
+Tree: ((((cat:68.7105,horse:68.7105):4.56678,cow:73.2773):20.7227,(((((chimp:4.44417,human:4.44417):6.68268,orang:11.1268):2.28586,gibbon:13.4127):7.21153,(macaque:4.56724,baboon:4.56724):16.057):16.0607,marmoset:36.6849):57.3151):38.738,(rat:36.3024,mouse:36.3024):96.4356)
+The number of families is 12653
+Root Family size : 1 ~ 112
+Family size : 0 ~ 140
+P-value: 0.010000
+Num of Threads: 10
+Num of Random: 1000
+Lambda Tree: ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1)
+Empirical Prior Estimation Result: 35
+Poisson lambda: 0.761426 & Score: 237754.098758
+Lambda : 0.00153754138771 & Score: -145765.569398
+.Lambda : 0.00161441845709 & Score: -145816.749727
+.Lambda : 0.00146066431832 & Score: -145751.927357
+.Lambda : 0.00138378724894 & Score: -145780.522016
+.Lambda : 0.00138378724894 & Score: -145780.522016
+.Lambda : 0.00142222578363 & Score: -145760.604539
+.Lambda : 0.00149910285301 & Score: -145753.766563
+.Lambda : 0.00142222578363 & Score: -145760.604539
+.Lambda : 0.00144144505097 & Score: -145754.889534
+.Lambda : 0.00147988358567 & Score: -145751.568355
+.Lambda : 0.00149910285301 & Score: -145753.766563
+.Lambda : 0.00148949321934 & Score: -145752.342170
+.Lambda : 0.00147027395199 & Score: -145751.406546
+.Lambda : 0.00146066431832 & Score: -145751.927357
+.Lambda : 0.00146546913516 & Score: -145751.579862
+.Lambda : 0.00147507876883 & Score: -145751.405830
+.Lambda : 0.00147988358567 & Score: -145751.568355
+.Lambda : 0.00147748117725 & Score: -145751.467605
+.Lambda : 0.00147267636041 & Score: -145751.384439
+.Lambda : 0.00147027395199 & Score: -145751.406546
+.Lambda : 0.00147147515620 & Score: -145751.390306
+.Lambda : 0.00147387756462 & Score: -145751.389657
+.Lambda : 0.00147147515620 & Score: -145751.390306
+.Lambda : 0.00147207575831 & Score: -145751.385985
+.Lambda : 0.00147327696252 & Score: -145751.385663
+.Lambda : 0.00147207575831 & Score: -145751.385985
+.Lambda : 0.00147237605936 & Score: -145751.384865
+.Lambda : 0.00147297666146 & Score: -145751.384705
+.Lambda : 0.00147237605936 & Score: -145751.384865
+.Lambda : 0.00147252620989 & Score: -145751.384565
+.Lambda : 0.00147282651094 & Score: -145751.384485
+.Lambda : 0.00147252620989 & Score: -145751.384565
+.Lambda : 0.00147260128515 & Score: -145751.384480
+.Lambda : 0.00147275143568 & Score: -145751.384440
+.Lambda : 0.00147260128515 & Score: -145751.384480
+.Lambda : 0.00147263882278 & Score: -145751.384454
+.Lambda : 0.00147271389804 & Score: -145751.384434
+.Lambda : 0.00147275143568 & Score: -145751.384440
+.Lambda : 0.00147273266686 & Score: -145751.384436
+.Lambda : 0.00147269512923 & Score: -145751.384435
+.
+Lambda Search Result: 20
+Lambda : 0.00147271389804 & Score: 145751.384434
+DONE: Lambda Search or setting, for command:
+lambda -s -t ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1) 

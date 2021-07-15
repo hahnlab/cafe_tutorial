@@ -1,0 +1,105 @@
+-----------------------------------------------------------
+Family information: /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/filtered_cafe_input.txt
+Log: /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_pre_log.txt
+Tree: ((((cat:68.7105,horse:68.7105):4.56678,cow:73.2773):20.7227,(((((chimp:4.44417,human:4.44417):6.68268,orang:11.1268):2.28586,gibbon:13.4127):7.21153,(macaque:4.56724,baboon:4.56724):16.057):16.0607,marmoset:36.6849):57.3151):38.738,(rat:36.3024,mouse:36.3024):96.4356)
+The number of families is 12653
+Root Family size : 1 ~ 112
+Family size : 0 ~ 140
+P-value: 0.010000
+Num of Threads: 10
+Num of Random: 1000
+Lambda Tree: ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1)
+Empirical Prior Estimation Result: 35
+Poisson lambda: 0.761428 & Score: 237754.098758
+Lambda : 0.00446760174795 & Score: -166787.561394
+.-----------------------------------------------------------
+Family information: /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/filtered_cafe_input.txt
+Log: run6_caferror_files/cafe_pre_log.txt
+Tree: ((((cat:68.7105,horse:68.7105):4.56678,cow:73.2773):20.7227,(((((chimp:4.44417,human:4.44417):6.68268,orang:11.1268):2.28586,gibbon:13.4127):7.21153,(macaque:4.56724,baboon:4.56724):16.057):16.0607,marmoset:36.6849):57.3151):38.738,(rat:36.3024,mouse:36.3024):96.4356)
+The number of families is 12653
+Root Family size : 1 ~ 112
+Family size : 0 ~ 140
+P-value: 0.010000
+Num of Threads: 10
+Num of Random: 1000
+Lambda Tree: ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1)
+Empirical Prior Estimation Result: 35
+Poisson lambda: 0.761428 & Score: 237754.098758
+-----------------------------------------------------------
+Family information: /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/filtered_cafe_input.txt
+Log: /Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_pre_log.txt
+Tree: ((((cat:68.7105,horse:68.7105):4.56678,cow:73.2773):20.7227,(((((chimp:4.44417,human:4.44417):6.68268,orang:11.1268):2.28586,gibbon:13.4127):7.21153,(macaque:4.56724,baboon:4.56724):16.057):16.0607,marmoset:36.6849):57.3151):38.738,(rat:36.3024,mouse:36.3024):96.4356)
+The number of families is 12653
+Root Family size : 1 ~ 112
+Family size : 0 ~ 140
+P-value: 0.010000
+Num of Threads: 10
+Num of Random: 1000
+Lambda Tree: ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1)
+Empirical Prior Estimation Result: 36
+Poisson lambda: 0.761428 & Score: 237754.098758
+Lambda : 0.00714693895818 & Score: -178847.495451
+.Lambda : 0.00750428590609 & Score: -180595.803382
+.Lambda : 0.00678959201027 & Score: -177113.542670
+.Lambda : 0.00643224506236 & Score: -175400.113221
+.Lambda : 0.00571755116654 & Score: -172067.935286
+.Lambda : 0.00500285727072 & Score: -168932.193690
+.Lambda : 0.00357346947909 & Score: -163891.489750
+.Lambda : 0.00214408168745 & Score: -163217.912984
+.Lambda : -0.00071469389582 & Score: -inf
+.Lambda : 0.00071469389582 & Score: -181901.488840
+.Lambda : 0.00357346947909 & Score: -163891.489750
+.Lambda : 0.00071469389582 & Score: -181901.488840
+.Lambda : 0.00142938779164 & Score: -167520.642764
+.Lambda : 0.00285877558327 & Score: -162652.326871
+.Lambda : 0.00357346947909 & Score: -163891.489750
+.Lambda : 0.00321612253118 & Score: -163111.077263
+.Lambda : 0.00250142863536 & Score: -162629.777877
+.Lambda : 0.00214408168745 & Score: -163217.912984
+.Lambda : 0.00214408168745 & Score: -163217.912984
+.Lambda : 0.00232275516141 & Score: -162832.850261
+.Lambda : 0.00268010210932 & Score: -162577.453321
+.Lambda : 0.00285877558327 & Score: -162652.326871
+.Lambda : 0.00276943884629 & Score: -162600.124260
+.Lambda : 0.00259076537234 & Score: -162586.702686
+.Lambda : 0.00276943884629 & Score: -162600.124260
+.Lambda : 0.00272477047780 & Score: -162584.987879
+.Lambda : 0.00263543374083 & Score: -162577.847635
+.Lambda : 0.00272477047780 & Score: -162584.987879
+.Lambda : 0.00270243629356 & Score: -162580.233106
+.Lambda : 0.00265776792507 & Score: -162576.635209
+.Lambda : 0.00263543374083 & Score: -162577.847635
+.Lambda : 0.00264660083295 & Score: -162576.978439
+.Lambda : 0.00266893501719 & Score: -162576.807541
+.Lambda : 0.00264660083295 & Score: -162576.978439
+.Lambda : 0.00265218437901 & Score: -162576.742878
+.Lambda : 0.00266335147113 & Score: -162576.660294
+.Lambda : 0.00265218437901 & Score: -162576.742878
+.Lambda : 0.00265497615204 & Score: -162576.672161
+.Lambda : 0.00266055969810 & Score: -162576.630831
+.Lambda : 0.00266335147113 & Score: -162576.660294
+.Lambda : 0.00266195558462 & Score: -162576.641338
+.Lambda : 0.00265916381159 & Score: -162576.628785
+.Lambda : 0.00265776792507 & Score: -162576.635209
+.Lambda : 0.00265846586833 & Score: -162576.630937
+.Lambda : 0.00265986175484 & Score: -162576.628750
+.Lambda : 0.00266055969810 & Score: -162576.630831
+.Lambda : 0.00266021072647 & Score: -162576.629526
+.Lambda : 0.00265951278322 & Score: -162576.628503
+.Lambda : 0.00265916381159 & Score: -162576.628785
+.Lambda : 0.00265933829740 & Score: -162576.628578
+.Lambda : 0.00265968726903 & Score: -162576.628560
+.Lambda : 0.00265933829740 & Score: -162576.628578
+.Lambda : 0.00265942554031 & Score: -162576.628524
+.Lambda : 0.00265960002612 & Score: -162576.628515
+.Lambda : 0.00265942554031 & Score: -162576.628524
+.Lambda : 0.00265946916176 & Score: -162576.628509
+.Lambda : 0.00265955640467 & Score: -162576.628505
+.Lambda : 0.00265946916176 & Score: -162576.628509
+.Lambda : 0.00265949097249 & Score: -162576.628505
+.Lambda : 0.00265953459394 & Score: -162576.628503
+.
+Lambda Search Result: 28
+Lambda : 0.00265953459394 & Score: 162576.628503
+DONE: Lambda Search or setting, for command:
+lambda -s -t ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1) 

@@ -1,0 +1,80 @@
+# CAFE tutorial commands (please run them all from the tutorial folder)
+
+# Downloading the data
+
+tar -zxvf twelve_spp_proteins.tar.gz
+for i in `ls -1 twelve_spp_proteins/*.tar.gz`; do tar -zxvf $i -C twelve_spp_proteins/; done
+
+# Moving all longest isoforms into a single file
+
+python python_scripts/cafetutorial_longest_iso.py -d twelve_spp_proteins/
+cat twelve_spp_proteins/longest*.fa > makeblastdb_input.fa
+
+# Making BLAST database
+
+makeblastdb -in makeblastdb_input.fa -dbtype prot -out blastdb
+
+# All-by-all blastp
+
+ blastp -num_threads 4 -db blast.db -query makeblastdb_input.fa -outfmt 7 -seg yes > blast_output.tx
+
+# Clustering sequences with mcl
+
+grep -v "#" blast_output.txt | cut -f 1,2,11 > blast_output.abc
+
+mcxload -abc blast_output.abc --stream-mirror --stream-neg-log10 -stream-tf 'ceil(200)' -o blast_output.mci -write-tab blast_output.tab
+
+mcl blast_output.mci -I 3
+
+mcxdump -icl out.blast_output.mci.I30 -tabr blast_output.tab -o dump.blast_output.mci.I30
+
+# Final parsing of mcl's output
+
+python python_scripts/cafetutorial_mcl2rawcafe.py -i dump.blast_output.mci.I30 -o unfiltered_cafe_input.txt -sp "ENSG00 ENSPTR ENSPPY ENSPAN ENSNLE ENSMMU ENSCJA ENSRNO ENSMUS ENSFCA ENSECA ENSBTA"
+
+python python_scripts/cafetutorial_clade_and_size_filter.py -i unfiltered_cafe_input.txt -o filtered_cafe_input.txt -s
+
+mv filtered_cafe_input_names.txt filtered_cafe_input.txt
+
+mv large_filtered_cafe_input_names.txt large_filtered_cafe_input.txt
+
+# Making the species tree ultrametric
+
+python python_scripts/cafetutorial_prep_r8s.py -i twelve_spp_raxml_cat_tree_midpoint_rooted.txt -o r8s_ctl_file.txt -s 35157236 -p 'human,cat' -c '94'
+
+$ r8s -b -f r8s_ctl_file.txt > r8s_tmp.txt
+$ tail -n 1 r8s_tmp.txt | cut -c 16- > twelve_spp_r8s_ultrametric.txt
+
+# Estimating a single lambda for the whole tree
+
+cafe cafe_shell_scripts/cafetutorial_run1.sh
+
+python python_scripts/cafetutorial_report_analysis.py -i reports/report_run1.cafe -o reports/summary_run1
+
+python python_scripts/cafetutorial_draw_tree.py -i reports/summary_run1_node.txt -t '((((cat:68.7105,horse:68.7105):4.56678,cow:73.2773):20.7227,(((((chimp:4.44417,human:4.44417):6.68268,orang:11.1268):2.28586,gibbon:13.4127):7.21153,(macaque:4.56724,baboon:4.56724):16.057):16.0607,marmoset:36.6849):57.3151):38.738,(rat:36.3024,mouse:36.3024):96.4356)' -d '((((cat<0>,horse<2>)<1>,cow<4>)<3>,(((((chimp<6>,human<8>)<7>,orang<10>)<9>,gibbon<12>)<11>,(macaque<14>,baboon<16>)<15>)<13>,marmoset<18>)<17>)<5>,(rat<20>,mouse<22>)<21>)<19>' -o reports/summary_run1_tree_rapid.png -y Rapid
+
+# Setting lambda to a previously estimated value to deal with families with large numbers  of gene copies
+
+cafe cafe_shell_scripts/cafetutorial_run2.sh
+
+# Estimating multiple lambda for different parts of the tree
+
+cafe cafe_shell_scripts/cafetutorial_run3.sh
+
+# Comparing models with one vs multiple lambda
+
+cafe cafe_shell_scripts/cafetutorial_run4.sh
+
+cut -f 2,4 reports/lhtest_result.txt > run4_lk_diffs.txt
+
+Rscript other/lhtest.R reports/run4_lk_diffs.txt -162576.606204 -149055.330013
+
+# Estimating separate birth (lambda) and death (mu) parameters
+
+cafe cafe_shell_scripts/cafetutorial_run5.sh
+
+# Estimating an error model to account for genome assembly error
+
+python caferror.py -i cafe_shell_scripts/cafetutorial_run6.sh -d reports/run6_caferror_files -v 0 -f 1
+
+cafe cafe_shell_scripts/cafetutorial_run7.sh

@@ -1,0 +1,132 @@
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_pre_log.txt
+Poisson lambda: 0.761428 & Score: 237754.098758
+run6_caferror_files/cafe_pre_log.txt
+Poisson lambda: 0.761428 & Score: 237754.098758
+Poisson lambda: 0.761428 & Score: 237754.098758
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_pre_log.txt
+Poisson lambda: 0.761428 & Score: 237754.098758
+Poisson lambda: 0.761428 & Score: 237754.098758
+Poisson lambda: 0.761428 & Score: 237754.098758
+162576.628503
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.4_all_log.txt
+Poisson lambda: 0.761425 & Score: 237754.098758
+166462.116642
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.2_all_log.txt
+Poisson lambda: 0.761429 & Score: 237754.098758
+148487.316800
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.1_all_log.txt
+Poisson lambda: 0.761424 & Score: 237754.098759
+145776.419850
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.05_all_log.txt
+Poisson lambda: 0.761428 & Score: 237754.098758
+147792.113653
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.125_all_log.txt
+Poisson lambda: 0.761428 & Score: 237754.098758
+145844.837758
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.0875_all_log.txt
+Poisson lambda: 0.761427 & Score: 237754.098758
+145960.422682
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.10625_all_log.txt
+Poisson lambda: 0.761429 & Score: 237754.098758
+145743.199198
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.115625_all_log.txt
+Poisson lambda: 0.761423 & Score: 237754.098759
+inf
+bad
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.115625_all_log.txt
+Poisson lambda: 0.761431 & Score: 237754.098759
+145758.495205
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.053125_all_log.txt
+Poisson lambda: 0.761429 & Score: 237754.098758
+147541.731451
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.084375_all_log.txt
+Poisson lambda: 0.761429 & Score: 237754.098758
+146033.486212
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.0921875_all_log.txt
+Poisson lambda: 0.761424 & Score: 237754.098758
+145871.878264
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.10390625_all_log.txt
+Poisson lambda: 0.761426 & Score: 237754.098758
+145751.384434
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.109765625_all_log.txt
+Poisson lambda: 0.761428 & Score: 237754.098758
+145740.147917
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.1126953125_all_log.txt
+Poisson lambda: 0.761427 & Score: 237754.098759
+145745.745599
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.0548828125_all_log.txt
+Poisson lambda: 0.761427 & Score: 237754.098758
+147410.677977
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.0837890625_all_log.txt
+Poisson lambda: 0.761428 & Score: 237754.098758
+146048.477903
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.0982421875_all_log.txt
+Poisson lambda: 0.761429 & Score: 237754.098759
+145792.494210
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.10546875_all_log.txt
+Poisson lambda: 0.761428 & Score: 237754.098759
+145745.371527
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.10908203125_all_log.txt
+Poisson lambda: 0.761430 & Score: 237754.098759
+145739.899086
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.110888671875_all_log.txt
+Poisson lambda: 0.761426 & Score: 237754.098757
+145741.431870
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.054541015625_all_log.txt
+Poisson lambda: 0.761424 & Score: 237754.098759
+147435.615313
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_0.08271484375_all_log.txt
+Poisson lambda: 0.761428 & Score: 237754.098757
+146077.074291
+good
+
+/Users/binho/Documents/IU/hahn_lab_stuff/cafe_manual/tutorial/run6_caferror_files/cafe_final_log.txt
+Poisson lambda: 0.761427 & Score: 237754.098758
+145739.885051
+good
+

@@ -1,0 +1,41 @@
+-----------------------------------------------------------
+Family information: ./large_filtered_cafe_input.txt
+Log: log_run2.txt
+The number of families is 16
+Root Family size : 1 ~ 1194
+Family size : 0 ~ 1146
+P-value: 0.010000
+Num of Threads: 4
+Num of Random: 1000
+Lambda Tree: ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1)
+Empirical Prior Estimation Result: 16
+Poisson lambda: 0.789139 & Score: inf
+-----------------------------------------------------------
+Family information: ./large_filtered_cafe_input.txt
+Log: log_run2.txt
+The number of families is 16
+Root Family size : 1 ~ 1194
+Family size : 0 ~ 1146
+P-value: 0.010000
+Num of Threads: 4
+Num of Random: 1000
+Lambda Tree: ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1)
+Empirical Prior Estimation Result: 16
+Poisson lambda: 0.789506 & Score: inf
+-----------------------------------------------------------
+Family information: ./large_filtered_cafe_input.txt
+Log: log_run2.txt
+The number of families is 16
+Root Family size : 1 ~ 1194
+Family size : 0 ~ 1146
+P-value: 0.010000
+Num of Threads: 4
+Num of Random: 1000
+Lambda Tree: ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1)
+Empirical Prior Estimation Result: 16
+Poisson lambda: 0.791111 & Score: inf
+DONE: Lambda Search or setting, for command:
+lambda -l 0.00265952 -t ((((1,1)1,1)1,(((((1,1)1,1)1,1)1,(1,1)1)1,1)1)1,(1,1)1) 
+Running Viterbi algorithm....
+Building HTML report: report_run2.html
+Report Done
